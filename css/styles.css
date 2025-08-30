@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.mobile_title-container {
+    width: 100%;
+    padding: 17px 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* dark but slightly transparent */
+}
+
+.mobile_title-container h3 {
+    font-size: 32px;
+}
+
+.mobile_title-container span {
+    font-weight: bold;
+}
+
+/* Container One Code */
+.container_one {
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    /* background-color: red; */
+}
+
+.container_one-box1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.container_one .container_one-box2 {
+    height: 400px;
+    width: 100%;
+     padding: 20px 15px; 
+   /* background-color: purple; */
+   text-align: center;
+   
+}
+
+.container_one-box2 h2 {
+    font-size: 4rem;
+    line-height: 65px;
+}
+
+.container_one-box2 h2:last-of-type {
+    margin-bottom: 10px
+}
+
+.container_one-box2 p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.box2_button-container {
+   height: 30px;
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+
+}
+
+.box2_button-container button {
+    width: 65%;
+    max-width: 250px;
+    background-color: #4B5092;
+    padding: 18px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+/*///////////////////////////// */
+/* Container Two Code */
+
+.container_two {
+    min-height: 350px;
+    height: auto;
+    width: 100%;
+    background-color: #F2F8FF;
+    text-align: start;
+    padding: 54px 20px 60px 20px;
+}
+
+.container_two h2:first-of-type {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.container_two h2:nth-of-type(2) {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.container_two p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.container_two p {
+    font-family: sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.container_two-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section_divider-container {
+    min-height: 120px;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
+/* Container Three Code */
+.container_three {
+        min-height: 400px;
+        height: auto;
+       background: #B3CEF9;
+background: linear-gradient(120deg, rgba(179, 206, 249, 1) 38%, rgba(145, 176, 226, 1) 61%, rgba(117, 151, 204, 1) 79%);
+}
+.container_three-box1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 15px;
+}
+.container_three-box1 > h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.container_three-box1 .trainer-title {
+   font-size: 18px;
+    margin-bottom: 35px;
+}
+.trainer-descr {
+   font-size: 1rem;
+    line-height: 25px;
+}
+
+/* Iphone 16 Pro Max Media Query */
